@@ -59,12 +59,12 @@
 
 	<distributionManagement>
         <repository>
-            <id>maven-releases</id>
-            <url>http://65.2.144.134:8081/repository/maven-releases/</url>
+            <id>releases</id>
+            <url>http://98.83.161.2:8082/artifactory/libs-release-local/</url>
         </repository>
         <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://65.2.144.134:8081/repository/maven-snapshots/</url>
+            <id>snapshots</id>
+            <url>http://98.83.161.2:8082/artifactory/libs-snapshot-local/</url>
         </snapshotRepository>
     </distributionManagement>
 
